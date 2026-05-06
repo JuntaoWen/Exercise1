@@ -4,4 +4,4 @@ import java.text.NumberFormat
 import java.util.Locale
 
 fun Double.formatUsd(): String =
-    NumberFormat.getCurrencyInstance(Locale.US).format(this)
+    NumberFormat.getCurrencyInstance(Locale.CANADA).format(this)

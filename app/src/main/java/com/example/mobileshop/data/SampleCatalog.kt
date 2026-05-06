@@ -1,5 +1,7 @@
 package com.example.mobileshop.data
 
+import com.example.mobileshop.R
+
 object SampleCatalog {
 
     val shoes: List<Shoe> = listOf(
@@ -17,7 +19,7 @@ object SampleCatalog {
                 ShoeColor("c-red", "University Red", 0xFFB71C1CL),
             ),
             sizes = listOf(40, 41, 42, 43, 44),
-            imageRes = 0,
+            imageRes = R.drawable.nike_air_force_1_07,
         ),
         Shoe(
             id = "Luka 5",
@@ -32,7 +34,7 @@ object SampleCatalog {
                 ShoeColor("c-gray", "Cool Grey", 0xFF9E9E9EL),
             ),
             sizes = listOf(40, 41, 42, 43),
-            imageRes = 0,
+            imageRes = R.drawable.luka_5,
         ),
         Shoe(
             id = "Pegasus 42",
@@ -47,7 +49,7 @@ object SampleCatalog {
                 ShoeColor("c-sand", "Desert Sand", 0xFFD7CCC8L),
             ),
             sizes = listOf(41, 42, 43, 44, 45),
-            imageRes = 0,
+            imageRes = R.drawable.pegasus_42,
         ),
     )
 
